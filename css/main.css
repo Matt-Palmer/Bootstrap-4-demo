@@ -8,10 +8,6 @@ html, body{
 	min-height: 100%;
 }
 
-.link-color li a{
-	color: rgba(255, 255, 255, 0.5)
-}
-
 .row ul{
 	padding-top: 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -19,6 +15,10 @@ html, body{
 
 .row div img{
 	padding-top: 30px;
+}
+
+#footer a{
+	color: rgba(255, 255, 255, 0.5)
 }
 
 .text-center{
