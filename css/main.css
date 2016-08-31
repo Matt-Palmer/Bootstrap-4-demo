@@ -24,3 +24,16 @@ html, body{
 .text-center{
 	text-align: center;
 }
+
+.text-left{
+	text-align: left;
+}
+
+#accordion h4{
+	color: rgba(0, 0, 0, 0.5)
+}
+
+#accordion img{
+	width: 30px;
+	height: 30px;
+}
