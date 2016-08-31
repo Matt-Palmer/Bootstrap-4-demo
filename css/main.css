@@ -37,3 +37,19 @@ html, body{
 	width: 30px;
 	height: 30px;
 }
+
+
+.dropdown-menu, .dropdown-menu .active{
+	border-radius: 0;
+	border: 0;
+	background-color: #38003c;
+}
+
+.dropdown-menu a:hover{
+	background-color: #38003c;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-menu a{
+	color: rgba(255, 255, 255, 0.5);
+}
