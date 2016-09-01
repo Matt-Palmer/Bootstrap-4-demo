@@ -29,13 +29,28 @@ html, body{
 	text-align: left;
 }
 
+.text-right{
+	text-align: right;
+}
+
 #accordion h4{
 	color: rgba(0, 0, 0, 0.5)
 }
 
+/*
+#accordion .active h4{
+	color: rgba(255, 255, 255, 0.5);
+}
+*/
+
 #accordion img{
 	width: 30px;
 	height: 30px;
+}
+
+#team{
+	display: inline-block;
+	width: 200px;
 }
 
 
@@ -50,6 +65,11 @@ html, body{
 	color: rgba(255, 255, 255, 0.75);
 }
 
-.dropdown-menu a{
+.dropdown-menu a,
+#accordion .panel:hover h4{
 	color: rgba(255, 255, 255, 0.5);
+}
+
+#accordion .panel:hover{
+	background-color: #38003c;
 }

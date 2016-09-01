@@ -32,8 +32,31 @@
 				<li class="nav-item">
 					<a href="fixtures.html" class="nav-link">Fixtures</a>
 				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Link 4</a>
+				<li class="nav-item" style="position: relative;">
+					<a href="#" class="nav-link dropdown-toggle" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="position: absolute; min-width: 250px;">
+						<a class="dropdown-item" href="#">Arsenal</a>
+					    <a class="dropdown-item" href="#">Bournemouth</a>
+					    <a class="dropdown-item" href="#">Burnley</a>
+					    <a class="dropdown-item" href="#">Chelsea</a>
+					    <a class="dropdown-item" href="#">Crystal Palace</a>
+					    <a class="dropdown-item" href="#">Everton</a>
+					    <a class="dropdown-item" href="#">Hull City</a>
+					    <a class="dropdown-item" href="#">Leicester City</a>
+					    <a class="dropdown-item" href="#">Liverpool</a>
+					    <a class="dropdown-item" href="#">Man City</a>
+					    <a class="dropdown-item" href="#">Man Utd</a>
+					    <a class="dropdown-item" href="#">Middelsbrough</a>
+					    <a class="dropdown-item" href="#">Southampton</a>
+					    <a class="dropdown-item" href="#">Stoke City</a>
+					    <a class="dropdown-item" href="#">Sunderland</a>
+					    <a class="dropdown-item" href="#">Swansea</a>
+					    <a class="dropdown-item" href="#">Tottehnham</a>
+					    <a class="dropdown-item" href="#">Watford</a>
+					    <a class="dropdown-item" href="#">West Brom</a>
+					    <a class="dropdown-item" href="#">West Ham</a>
+					</div>
 				</li>
 				<li class="nav-item">
 					<a href="#" class="nav-link">Link 5</a>
@@ -45,79 +68,58 @@
 	<div id="main-content" class="container-fluid">
 		<div class="container" style="padding-top: 30px;">
 
-			<img src="images/premier-league-new-logo.jpg" class="img-fluid m-x-auto" alt="premier league logo" width="300px" height="300px">
 			
+			
+			<ul class="nav nav-tabs" role="tablist" style="margin-top: 30px;">
+				<li class="nav-item">
+					<a href="#home" class="nav-link active" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true" style="color: black;">Home</a>
+				</li>
 
-			<div class="row" style="padding-bottom: 30px;">
-				<div class="col-xs-4 col-sm-3 col-lg-2 offset-lg-1">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
+				<li class="nav-item">
+					<a href="#history" class="nav-link" id="history-tab" role="tab" data-toggle="tab" aria-controls="history" style="color: black; background-color: blue;">History</a>
+				</li>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
+				<li class="nav-item">
+					<a href="#about" class="nav-link" id="about-tab" role="tab" data-toggle="tab" aria-controls="about">Previous Winners</a>
+				</li>
+			</ul>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2 offset-lg-1">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
+			<div class="tab-content" id="nav-content" style="padding: 10px; border: 1px solid #ddd; border-top: 0; border-radius:  0 0 4px 4px; margin-bottom: 30px;">
+				<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+					<img src="images/premier-league-new-logo.jpg" class="img-fluid m-x-auto" alt="premier league logo" width="300px" height="300px">
 				</div>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
+				<div role="tabpanel" class="tab-pane fade" id="history" aria-labelledby="history-tab">
+					<p>History content</p>
 				</div>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2 offset-lg-1">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
+				<div role="tabpanel" class="tab-pane fade" id="about" aria-labelledby="about-tab">
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<div class="card card-block">
+								<h4 class="card-title">2016/2017</h4>
+								<img src="">
+							</div>
+						</div>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="card card-block">
+								<h4 class="card-title">2016/2017</h4>
+								<img src="">
+							</div>
+						</div>
 
-				<div class="col-xs-4 col-sm-3 col-lg-2 offset-lg-1">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
+						<div class="col-sm-6 col-lg-4">
+							<div class="card card-block">
+								<h4 class="card-title">2016/2017</h4>
+								<img src="">
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2 ">
-					<img src="images/logos/man-city.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-				<div class="col-xs-4 col-sm-3 col-lg-2">
-					<img src="images/logos/man-utd.svg" alt="arsenal logo" class="img-fluid" style="width: 125px; height: 125px; ">
-				</div>
-
 			</div>
+
+
 		</div>
 	</div>
 
