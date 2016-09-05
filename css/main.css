@@ -1,3 +1,20 @@
+/*
+CONTENTS
+
+1) Genral Styles
+2) Home Page
+3) League Table Page
+4) Fixtures Page
+*/
+
+/* 
+
+1)
+///////////////////////////
+//////General Styles///////
+///////////////////////////
+
+*/
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -6,6 +23,21 @@
 
 html, body{
 	min-height: 100%;
+}
+
+.dropdown-menu a{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu, .dropdown-menu .active{
+	border-radius: 0;
+	border: 0;
+	background-color: #38003c;
+}
+
+.dropdown-menu a:hover{
+	background-color: #38003c;
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .row ul{
@@ -32,6 +64,85 @@ html, body{
 .text-right{
 	text-align: right;
 }
+/* 
+
+///////////////////////////
+//////General Styles///////
+///////////////////////////
+
+*/
+
+/* 
+
+2)
+///////////////////////////
+/////////Home Page/////////
+///////////////////////////
+
+*/
+
+#home-content-nav li a{
+	color: rgba(255, 255, 255, 0.5);
+	background-color: #38003c;
+}
+
+#home-content-nav li a:hover{
+	opacity: 0.75;
+}
+
+#home-content-nav li a.active{
+	color: black;
+	background-color: white;
+}
+
+#previous-winners img{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#previous-winners{
+	color: rgba(0, 0, 0, 0.5)
+}
+
+
+/* 
+
+///////////////////////////
+/////////Home Page/////////
+///////////////////////////
+
+*/
+
+/* 
+
+3)
+///////////////////////////
+////League Table Page//////
+///////////////////////////
+
+*/
+
+
+/* 
+
+///////////////////////////
+////League Table Page//////
+///////////////////////////
+
+*/
+
+
+
+/* 
+
+4)
+///////////////////////////
+//////Fixtures Page////////
+///////////////////////////
+
+*/
+
 
 #accordion h4{
 	color: rgba(0, 0, 0, 0.5)
@@ -48,24 +159,20 @@ html, body{
 	height: 30px;
 }
 
+#accordion .panel .panel-body{
+	background-color: white;
+}
+
+.month table tbody tr td div{
+	width: 80%;
+	margin: 0 auto;
+}
+
 #team{
 	display: inline-block;
 	width: 200px;
 }
 
-
-.dropdown-menu, .dropdown-menu .active{
-	border-radius: 0;
-	border: 0;
-	background-color: #38003c;
-}
-
-.dropdown-menu a:hover{
-	background-color: #38003c;
-	color: rgba(255, 255, 255, 0.75);
-}
-
-.dropdown-menu a,
 #accordion .panel:hover h4{
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -73,3 +180,17 @@ html, body{
 #accordion .panel:hover{
 	background-color: #38003c;
 }
+
+/* 
+
+///////////////////////////
+//////Fixtures Page////////
+///////////////////////////
+
+*/
+
+
+
+
+
+
