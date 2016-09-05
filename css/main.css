@@ -45,8 +45,9 @@ html, body{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.row div img{
+#main-content .container{
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #footer a{
@@ -95,6 +96,21 @@ html, body{
 	background-color: white;
 }
 
+#news-card{
+	display: block; 
+	text-decoration: none; 
+	color: black;
+	margin-top: 15px;
+}
+
+#news-card img{
+		margin: 20px 0 0 0;
+	}
+
+#stats-preview{
+	padding: 0;
+}
+
 #previous-winners img{
 	width: 250px;
 	height: 250px;
@@ -104,6 +120,8 @@ html, body{
 #previous-winners{
 	color: rgba(0, 0, 0, 0.5)
 }
+
+
 
 
 /* 
@@ -191,6 +209,22 @@ html, body{
 
 
 
+@media (min-width: 768px){
+	#news-card img{
+		margin: 20px 20px 0 0;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	#news-container #news-card .card{
+		width: 47%;
+	}
+
+	#news-container #news-card .card:nth-child(odd){
+		margin-right: 20px;
+	}
+}
 
 
 
