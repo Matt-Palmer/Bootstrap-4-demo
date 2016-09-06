@@ -82,6 +82,10 @@ html, body{
 
 */
 
+h6{
+	display: block;
+}
+
 #home-content-nav li a{
 	color: rgba(255, 255, 255, 0.5);
 	background-color: #38003c;
@@ -97,15 +101,26 @@ html, body{
 }
 
 #news-card{
+
+	background-color: lightgray;
+}
+
+#news-card a{
 	display: block; 
 	text-decoration: none; 
 	color: black;
 	margin-top: 15px;
+
 }
 
 #news-card img{
-		margin: 20px 0 0 0;
-	}
+	max-width: 80%;
+	height: 210px;
+}
+
+#news-card .card-block{
+	padding-top: 20px;
+}
 
 #stats-preview{
 	padding: 0;
@@ -121,9 +136,73 @@ html, body{
 	color: rgba(0, 0, 0, 0.5)
 }
 
+#stats-card{
 
+	background-color: #38003c;
+	color: rgba(255, 255, 255, 0.5)
+}
 
+#stats-card a{
+	margin-top: 0;
+	display: block; 
+	text-decoration: none; 
+	color: #38003c;
+}
 
+#stats-card .card-block{
+	padding: 10px 0 10px 0;
+}
+
+#stats-card h6{
+	text-align: center;
+}
+
+#stats-card .table th,
+#stats-card .table td{
+	padding: 3px 0 3px 10px;
+}
+
+#stats-card button{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #38003c;
+}
+
+#stats-card #team{
+	width: 70px;
+}
+
+#stats-card #team img{
+	width: 20px;
+	height: 20px;
+}
+
+#stats-card #club img{
+	width: 20px;
+	height: 20px;
+}
+
+#long-team-name{
+	display: none;
+}
+
+#time{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.modal-header{
+	background-color: #e90052
+}
+
+.modal-content .table{
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #38003c;
+}
+
+.modal-content .table thead th{
+	border-top: 0;
+}
 /* 
 
 ///////////////////////////
@@ -141,7 +220,13 @@ html, body{
 
 */
 
+#league #short-team-name{
+	display: none;
+}
 
+#league #long-team-name{
+	display: none;
+}
 /* 
 
 ///////////////////////////
@@ -188,7 +273,7 @@ html, body{
 
 #team{
 	display: inline-block;
-	width: 200px;
+	width: 80px;
 }
 
 #accordion .panel:hover h4{
@@ -207,22 +292,123 @@ html, body{
 
 */
 
+@media (min-width: 544px) {
+	#team{
+		display: inline-block;
+		width: 170px;
+	}
 
+	#news-card img{
+		width: 60%
+	}
+
+	#short-team-name{
+		display: none;
+	}
+
+	#long-team-name{
+		display: inline-block;
+	}
+
+	#stats-card #team{
+		width: 200px;
+	}
+
+	#league #short-team-name{
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	#league #long-team-name{
+		display: none;
+		padding-left: 10px;
+	}
+}
 
 @media (min-width: 768px){
+
+	
+
 	#news-card img{
-		margin: 20px 20px 0 0;
+		margin: 0px 20px 0 0;
+		width: 60%
+	}
+
+	#stats-card .table th,
+	#stats-card .table td{
+		padding: 0px 0 0px 0px;
+	}
+
+	#stats-card .modal .table th,
+	#stats-card .modal .table td{
+		padding: 3px 0 3px 10px;
+	}
+
+	#short-team-name{
+		display: none;
+	}
+
+	#long-team-name{
+		display: none;
+	}
+
+	#stats-card #team{
+		width: 20px;
+	}
+
+	#stats-card #club{
+		display: none;
+	}
+
+	#stats-card .modal #club{
+		display: inline-block;
+	}
+
+	#league #short-team-name{
+		display: none;
+	}
+
+	#league #long-team-name{
+		display: inline-block;
+	}
+
+	#accordion #long-team-name{
+		display: inline-block;
+	}
+}
+
+@media (min-width: 992px) {
+	#news-card img{
+		width: 50%
 	}
 }
 
 @media (min-width: 1200px) {
 
-	#news-container #news-card .card{
+	#news-container #news-card{
 		width: 47%;
 	}
 
-	#news-container #news-card .card:nth-child(odd){
+	#stats-container #stats-card:nth-child(odd),
+	#news-container #news-card:nth-child(odd){
 		margin-right: 20px;
+	}
+
+	#news-card img{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#short-team-name{
+		display: inline-block;
+	}
+
+	#accordion #short-team-name{
+		display: none;
+	}
+
+	#stats-card #team{
+		width: 70px;
 	}
 }
 

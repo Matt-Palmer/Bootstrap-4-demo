@@ -73,12 +73,12 @@
 			 <div class="panel-group" id="accordion" style="border: 1px solid #38003c; border-radius: 4px;">
 
                 <div class="panel panel-default" style="padding: 5px; border-bottom: 1px solid #38003c;">
-                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#august" >
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#august">
                         <h4 class="panel-title">
                             August
                         </h4>
                     </div>
-                    <div id="august" class="month panel-collapse collapse">
+                    <div id="august" class="month panel-collapse collapse in">
                         <div class="panel-body" style="background-color: white;">
                             <table class="table table-striped">
                             	<thead>
@@ -92,13 +92,15 @@
 	                            			<div class="text-center">
                                             <span>
 	                            				<span class="text-right" id="team">
-	                            					<span>Man Utd</span>
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
 	                            					<img src="images/logos/man-utd.svg">
 	                            				</span>
 	                            				<span><strong>V</strong></span>
 	                            				<span class="text-left" id="team">
 	                            					<img src="images/logos/man-city.svg">
-	                            					<span>Man City</span>
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
 	                            				</span>
                                             </span>
 	                            			</div>
@@ -109,13 +111,15 @@
                             				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
@@ -126,13 +130,15 @@
                             				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
@@ -143,13 +149,15 @@
                             				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
@@ -176,75 +184,83 @@
                             		</tr>
                             	</thead>
                             	<tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -265,75 +281,83 @@
                             		</tr>
                             	</thead>
                             	<tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -354,75 +378,83 @@
                             		</tr>
                             	</thead>
                             	<tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -443,75 +475,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -532,75 +572,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -621,75 +669,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -710,75 +766,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -799,75 +863,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
@@ -888,75 +960,83 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            		<tr>
+                            			<td>
+	                            			<div class="text-center">
                                             <span>
-                                                <span class="text-right" id="team">
-                                                    <span>Man Utd</span>
-                                                    <img src="images/logos/man-utd.svg">
-                                                </span>
-                                                <span><strong>V</strong></span>
-                                                <span class="text-left" id="team">
-                                                    <img src="images/logos/man-city.svg">
-                                                    <span>Man City</span>
-                                                </span>
+	                            				<span class="text-right" id="team">
+	                            					<span id="short-team-name">MUN</span>
+                                                	<span id="long-team-name">Manchester United</span>
+	                            					<img src="images/logos/man-utd.svg">
+	                            				</span>
+	                            				<span><strong>V</strong></span>
+	                            				<span class="text-left" id="team">
+	                            					<img src="images/logos/man-city.svg">
+	                            					<span id="short-team-name">MCI</span>
+                                                	<span id="long-team-name">Manchester City</span>
+	                            				</span>
                                             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+	                            			</div>
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Chelsea</span>
+                                                    <span id="short-team-name">CHE</span>
+                                                	<span id="long-team-name">Chelsea</span>
                                                     <img src="images/logos/chelsea.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/leicester.svg">
-                                                    <span>Leicester City</span>
+                                                    <span id="short-team-name">LEI</span>
+                                                	<span id="long-team-name">Leicester City</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Tottenham Hotspurs</span>
+                                                    <span id="short-team-name">TOT</span>
+                                                	<span id="long-team-name">Totenham Hotspur</span>
                                                     <img src="images/logos/spurs.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/middlesbrough.svg">
-                                                    <span>Middlesbrough</span>
+                                                    <span id="short-team-name">MID</span>
+                                                	<span id="long-team-name">Middlesbrough</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-center">
+                            			</td>
+                            		</tr>
+                            		<tr>
+                            			<td>
+                            				<div class="text-center">
                                             <span>
                                                 <span class="text-right" id="team">
-                                                    <span>Arsenal</span>
+                                                    <span id="short-team-name">ARS</span>
+                                                	<span id="long-team-name">Arsenal</span>
                                                     <img src="images/logos/arsenal.svg">
                                                 </span>
                                                 <span><strong>V</strong></span>
                                                 <span class="text-left" id="team">
                                                     <img src="images/logos/burnley.svg">
-                                                    <span>Burnley</span>
+                                                    <span id="short-team-name">BUR</span>
+                                                	<span id="long-team-name">Burnley</span>
                                                 </span>
                                             </span>
                                             </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            			</td>
+                            		</tr>
+                            	</tbody>
                             </table>
                         </div>
                     </div>
